@@ -1,0 +1,143 @@
+body {
+    background-color: chartreuse;
+}
+
+.menu{
+    font-family: tahoma;
+    font-weight: bold;
+    height: 60px;
+    width: 100%;
+    background: khaki;
+    border-radius: 5px;
+    font-size: 10px;
+	margin-bottom: auto;
+}
+
+label{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20pt;
+    color: brown;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+}
+
+.menu ul{
+    margin: -8px;
+    padding: 5px;
+    background: none;
+    display: block;
+    float:right;
+    font-size: 13pt;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul li a{
+    display: block;
+    text-direction: none;
+    padding: 20px;
+    color: brown;
+}
+
+.menu ul li a:hover{
+    display: block;
+    color: coral;
+    background: cornsilk;
+    box-shadow: inset 0px 0px 5px burlywood;
+}
+
+.menu ul li .dropdown{
+    display: none;
+
+}
+
+.menu ul li:hover .dropdown{
+    display: block;
+    background: blanchedalmond;
+    position: absolute;
+    padding: 10px;
+}
+
+.menu ul li:hover .dropdown li{
+    display: block;
+}
+
+.menu ul li:hover .dropdown li a{
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.menu ul li:hover .dropdown li a:hover{
+    background: burlywood;
+    box-shadow: inset 0px opx 5px bisque;
+}
+
+
+.boxs1 {
+	margin-top: auto;
+	justify-content: space-between;
+	position: left;
+	padding-top: 1px;
+}
+
+.box1 {
+	background-color: #dbd9d9;
+	width: 300px;
+	height: 100px;
+    margin-top: 100px;
+	padding-top: 10px;
+	padding-bottom: 100px;
+	padding-left: 10px;
+	
+}
+
+.box2 {
+	background-color: #dbd9d9;
+	width: 1000px;
+	height: 100px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	padding-left: 5px;
+	display:grid;
+	margin-left: 330px;
+	margin-top: 10px;
+
+}
+
+
+.box3 {
+	background-color: #a7ccb0;
+	width: 980px;
+	height: 100px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	padding-left: 20px;
+	margin-top: 10px;
+	margin-left: 330px;
+	
+}
+
+.box4 {
+	background-color: #47bf64;
+	width: 980px;
+	height: 100px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	padding-left: 20px;
+	margin-top: 10px;
+	margin-left: 330px;
+}
+
+.footer {
+	padding-top: 10px;
+	background-color: #f211e3;
+	padding: 10px 20px;
+	margin: auto;
+}
+
+
